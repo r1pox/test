@@ -17,17 +17,19 @@
       </a>
 
       <nav class="main-nav" id="mainNav" aria-label="Главное меню">
-        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
-          <span class="hamburger"></span>
-        </button>
-
         <ul class="nav-list" id="navList">
           <li><a href="index.html">Главная</a></li>
           <li><a href="info.html">Информация</a></li>
           <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="news.html">Новости</a></li>
           <li><a href="contacts.html" class="active">Контакты</a></li>
         </ul>
       </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+      </button>
     </div>
   </header>
 
@@ -56,7 +58,6 @@
         <h3>Карта</h3>
         <p>Ниже — встроенная карта Google. Если iframe не показывает, откройте карту в новом окне.</p>
         <div class="map-wrap">
-          <!-- Вставлен общий поиск по названию; при развёртывании можно заменить на точные координаты -->
           <iframe
             title="Карта Погреби"
             src="https://www.google.com/maps?q=%D0%9F%D0%BE%D0%B3%D1%80%D0%B5%D0%B1%D0%B8%20%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB.&output=embed"
@@ -73,6 +74,7 @@
         <a href="index.html">Главная</a>
         <a href="info.html">Информация</a>
         <a href="gallery.html">Галерея</a>
+        <a href="news.html">Новости</a>
         <a href="contacts.html">Контакты</a>
       </nav>
       <div class="credits">© <span id="year-contacts"></span> Погреби</div>
