@@ -1,109 +1,107 @@
-<!DOCTYPE html>
-<html lang="uk">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Погребы - Черкасская область</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Погреби — село в Черкасской области</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Официально-стильный сайт о селе Погреби (Черкасская область). История, традиции, фотогалерея и контакты.">
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <h1 class="logo">Погребы</h1>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="index.html" class="nav-link active">Главная</a></li>
-                        <li><a href="info.html" class="nav-link">История</a></li>
-                        <li><a href="gallery.html" class="nav-link">Галерея</a></li>
-                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
-                    </ul>
-                    <div class="burger-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </nav>
-            </div>
+<body data-page="index">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect rx="6" width="24" height="24" fill="currentColor"/></svg>
         </div>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2 class="hero-title">Добро пожаловать в Погребы</h2>
-                <p class="hero-subtitle">Жемчужина Черкасской области</p>
-                <a href="info.html" class="btn-primary">Узнать больше</a>
-            </div>
-            <div class="hero-overlay"></div>
-        </section>
-
-        <section class="features">
-            <div class="container">
-                <h2 class="section-title">Почему стоит посетить Погребы</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🏛️</div>
-                        <h3>Богатая история</h3>
-                        <p>Село с многовековой историей и уникальными традициями</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌳</div>
-                        <h3>Красивая природа</h3>
-                        <p>Живописные пейзажи и чистейший воздух</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🍷</div>
-                        <h3>Традиции</h3>
-                        <p>Сохранение народных обычаев и ремёсел</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-preview">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2>О селе Погребы</h2>
-                        <p>Погребы — живописное село в Черкасской области, известное своей богатой историей, 
-                        гостеприимными жителями и прекрасной природой. Здесь сохранились уникальные традиции 
-                        и народные промыслы, которые передаются из поколения в поколение.</p>
-                        <a href="info.html" class="btn-secondary">Читать подробнее</a>
-                    </div>
-                    <div class="about-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZThlOGU4Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzk5OSI+0J/QvtCz0YDRg9C30LjRgtGMLi4uPC90ZXh0Pjwvc3ZnPg==" alt="Село Погребы" class="placeholder-img">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Погребы</h3>
-                    <p>Черкасская область, Украина</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Навигация</h4>
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="info.html">История</a></li>
-                        <li><a href="gallery.html">Галерея</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Контакты</h4>
-                    <p>Email: pohrebykns@gmail.com</p>
-                    <p>Телефон: +380 (XX) XXX-XX-XX</p>
-                </div>
-            </div>
+        <div class="logo-text">
+          <span class="brand">Погреби</span>
+          <small class="tagline">Черкасская область</small>
         </div>
-    </footer>
-    <script src="script.js"></script>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Главное меню">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+          <span class="hamburger"></span>
+          <span class="sr-only">Меню</span>
+        </button>
+
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Добро пожаловать в Погреби</h1>
+          <p class="lead">Уютное сельское сообщество в сердце Черкасской области. Традиции, природа, простая правда жизни — все это в небольшом селе с большой душой.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="info.html">Узнать больше</a>
+            <a class="btn outline" href="gallery.html">Посмотреть фото</a>
+          </p>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <picture>
+            <source srcset="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=60" media="(min-width:900px)">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=60" alt="Поля и деревня — иллюстрация сельской местности">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards container">
+      <article class="card">
+        <h3>История и традиции</h3>
+        <p>Погреби — село с богатой локальной историей и живыми традициями. Местные праздники и ремёсла передаются из поколения в поколение.</p>
+        <a class="link" href="info.html">Читать дальше →</a>
+      </article>
+
+      <article class="card">
+        <h3>Природа и ландшафт</h3>
+        <p>Окружённое полями и лесами, с удобными дорожными связями к ближайшим городам — отличное место для прогулок и отдыха.</p>
+        <a class="link" href="gallery.html">Посмотреть фото →</a>
+      </article>
+
+      <article class="card">
+        <h3>Связь и контакты</h3>
+        <p>Контактная информация для жителей и гостей: местные администрации, волонтёры и инициативы по развитию села.</p>
+        <a class="link" href="contacts.html">Контакты →</a>
+      </article>
+    </section>
+
+    <section class="about container">
+      <h2>Почему Погреби — это место, где хочется жить</h2>
+      <p>Тёплое сообщество, чистый воздух и чувство причастности. Небольшая дистанция до районного центра, местные инициативы и сельское хозяйство создают устойчивую жизнь здесь.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Погреби</strong>
+        <span>Черкасская область</span>
+      </div>
+      <nav class="footer-nav" aria-label="Футер-меню">
+        <a href="index.html">Главная</a>
+        <a href="info.html">Информация</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="credits">© <span id="year"></span> Погреби — Все права защищены</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
