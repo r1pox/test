@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Новости — Погреби</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Актуальные новости села Погреби: события, объявления и обновления сообщества.">
+</head>
+<body data-page="news">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark"></div>
+        <div class="logo-text"><span class="brand">Погреби</span><small class="tagline">Черкасская область</small></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Главное меню">
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="news.html" class="active">Новости</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="content container">
+    <h1>Новости</h1>
+    <p class="lead">Актуальные события, объявления и истории из жизни села. Добавьте свою новость ниже!</p>
+
+    <!-- Форма для добавления новости (виджет) -->
+    <section class="news-form" id="newsForm">
+      <h2>Опубликовать новость</h2>
+      <form class="form-widget">
+        <input type="text" id="newsTitle" placeholder="Заголовок новости" required>
+        <textarea id="newsContent" placeholder="Текст новости" rows="4" required></textarea>
+        <input type="date" id="newsDate">
+        <button type="submit" class="btn primary">Опубликовать</button>
+      </form>
+    </section>
+
+    <!-- Список новостей -->
+    <section class="news-grid" id="newsGrid">
+      <!-- Новости будут добавляться сюда JS -->
+      <!-- Пример статической новости -->
+      <article class="news-card">
+        <header class="news-header">
+          <time datetime="2025-09-01">1 сентября 2025</time>
+          <h3>Праздник урожая в Погреби</h3>
+        </header>
+        <p>Жители собрались на центральной площади для празднования окончания уборки. Были ярмарки, народные танцы и дегустация местных блюд.</p>
+        <footer class="news-footer">
+          <a href="#" class="link">Подробнее →</a>
+        </footer>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Погреби</strong><span>Черкасская область</span></div>
+      <nav class="footer-nav" aria-label="Футер-меню">
+        <a href="index.html">Главная</a>
+        <a href="info.html">Информация</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="news.html">Новости</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="credits">© <span id="year-news"></span> Погреби</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
