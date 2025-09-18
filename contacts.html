@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Контакты — Погреби</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Контакты и карта села Погреби — адреса, телефоны и ссылки на соцсети.">
+</head>
+<body data-page="contacts">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark"></div>
+        <div class="logo-text"><span class="brand">Погреби</span><small class="tagline">Черкасская область</small></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Главное меню">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="contacts.html" class="active">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content container">
+    <h1>Контакты</h1>
+    <p class="lead">Свяжитесь с администрацией села или найдите нас на карте.</p>
+
+    <section class="contact-cards">
+      <div class="contact-card">
+        <h3>Администрация</h3>
+        <p>Адрес: Погреби, Черкасская область, Украина</p>
+        <p>Телефон: <a href="tel:+380501234567">+380 50 123 45 67</a></p>
+        <p>Email: <a href="mailto:info@pogrebi.example">info@pogrebi.example</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Социальные сети</h3>
+        <p>
+          <a href="#" class="social">Facebook</a><br>
+          <a href="#" class="social">Instagram</a><br>
+          <a href="#" class="social">Telegram</a>
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Карта</h3>
+        <p>Ниже — встроенная карта Google. Если iframe не показывает, откройте карту в новом окне.</p>
+        <div class="map-wrap">
+          <!-- Вставлен общий поиск по названию; при развёртывании можно заменить на точные координаты -->
+          <iframe
+            title="Карта Погреби"
+            src="https://www.google.com/maps?q=%D0%9F%D0%BE%D0%B3%D1%80%D0%B5%D0%B1%D0%B8%20%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB.&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Погреби</strong><span>Черкасская область</span></div>
+      <nav class="footer-nav" aria-label="Футер-меню">
+        <a href="index.html">Главная</a>
+        <a href="info.html">Информация</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="credits">© <span id="year-contacts"></span> Погреби</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
